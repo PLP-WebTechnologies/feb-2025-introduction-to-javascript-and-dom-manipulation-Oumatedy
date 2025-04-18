@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive JavaScript Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #dynamicBox {
+      width: 200px;
+      height: 100px;
+      background-color: lightblue;
+      margin-top: 20px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Chelsea Fan Zone</h1>
+  </header>
+
+  <section>
+    <p id="teamInfo">Chelsea FC is a top Premier League football club.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="changeStyle()">Change Style</button>
+    <button onclick="toggleElement()">Add/Remove Element</button>
+  </section>
+
+  <div id="dynamicBox">
+    This box will change!
+  </div>
+
+  <footer>
+    <p>Created by Tedy Ouma © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
